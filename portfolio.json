@@ -1,0 +1,130 @@
+{
+  "task": "Generate a modern, responsive frontend developer portfolio website",
+  "ai_persona": "Expert UI/UX Designer and Senior Frontend Engineer",
+  "project_configuration": {
+    "preferred_tech_stack": [
+      "React",
+      "Tailwind CSS",
+      "Framer Motion (for animations)",
+      "Lucide React (for icons)"
+    ],
+    "design_vibe": {
+      "aesthetic": "Minimalist, sleek, and highly performant. Professional SaaS-like feel with dark mode support.",
+      "layout": "Single-page application with smooth scrolling navigation.",
+      "typography": "Modern sans-serif (e.g., Inter or Roboto).",
+      "animations": "Subtle fade-ins on scroll, hover effects on project cards and skill tags."
+    }
+  },
+  "portfolio_content": {
+    "hero_section": {
+      "name": "Alangkrita Sarkar",
+      "role": "Software Developer",
+      "tagline": "Specializing in React, Material UI, and advanced state management.",
+      "summary": "Proven track record of standardizing frontend architecture, engineering complex data-driven interfaces, and optimizing application performance for high-scale SaaS platforms.",
+      "call_to_action": [
+        { "text": "View Projects", "link": "#projects" },
+        { "text": "Contact Me", "link": "#contact" }
+      ]
+    },
+    "contact_links": {
+      "email": "alangkritasarkar00@gmail.com",
+      "location": "Pune, Maharashtra, India",
+      "github": "https://github.com/sonai21",
+      "linkedin": "https://www.linkedin.com/in/alangkrita-sarkar",
+      "hackerrank": "https://www.hackerrank.com/alangkritasarka1"
+    },
+    "experience_section": [
+      {
+        "company": "Seaker Systems Pvt. Ltd.",
+        "role": "Software Developer",
+        "duration": "Apr 2024 – Present",
+        "location": "Pune, India",
+        "key_achievements": [
+          "Manage frontend for maritime shipping log reporting tool translating complex sensor data into clean dashboards.",
+          "Standardized frontend architecture and UI migration to Material UI.",
+          "Engineered complex dynamic features with TanStack Query and Zustand for high-frequency vessel telemetry.",
+          "Integrated Mapbox API for real-time spatial data and weather overlays.",
+          "Optimized frontend performance, reducing page load times by 50%."
+        ],
+        "tech_used": [
+          "React",
+          "Material UI",
+          "TanStack Query",
+          "Zustand",
+          "Mapbox API"
+        ]
+      }
+    ],
+    "projects_section": [
+      {
+        "title": "HipChat AI",
+        "subtitle": "Gemini-Inspired AI Chat Interface",
+        "description": "Developed a modern, responsive AI chat application with a seamless UI. Implemented advanced client-side state management using TanStack Query, native URL-based chat session routing, system-aware dark mode, and smooth auto-scrolling message feeds. Integrated with a .NET Core and Semantic Kernel backend for AI chat completions and asynchronous summary generation.",
+        "tech_stack": [
+          "React",
+          "Tailwind CSS",
+          "TanStack Query",
+          "Lucide React",
+          "Axios",
+          ".NET Core API"
+        ]
+      },
+      {
+        "title": "WeaveWhisper",
+        "subtitle": "E-commerce Clothing Platform",
+        "description": "Engineered a responsive, single-page UI for a multi-vendor platform. Built dynamic product filtering, complex search pagination, and vendor dashboards.",
+        "tech_stack": [
+          "React",
+          "Redux Toolkit",
+          "Tailwind CSS",
+          "AWS S3",
+          "Razorpay",
+          "Java Spring Boot"
+        ]
+      },
+      {
+        "title": "eCommerceSolution",
+        "subtitle": "Distributed Microservices System",
+        "description": "Engineered a scalable distributed backend utilizing event-driven messaging and polyglot database architecture.",
+        "tech_stack": [
+          ".NET Core",
+          "RabbitMQ",
+          "PostgreSQL",
+          "MongoDB",
+          "Redis",
+          "Docker"
+        ]
+      }
+    ],
+    "skills_section": {
+      "frontend": [
+        "React",
+        "Redux Toolkit",
+        "Tailwind CSS",
+        "Material UI",
+        "Zustand",
+        "TanStack Query",
+        "React Hook Form"
+      ],
+      "backend_and_databases": [
+        ".NET Core",
+        "Microservices",
+        "Node.js",
+        "Java",
+        "PostgreSQL",
+        "MongoDB",
+        "Redis",
+        "MySQL"
+      ],
+      "tools_and_cloud": ["Docker", "Git", "REST APIs", "RabbitMQ"]
+    }
+  },
+  "generation_instructions": [
+    "Build a sticky navigation bar with links to Experience, Projects, Skills, and Contact.",
+    "Render the Experience section as a vertical timeline.",
+    "Render the Projects section as a responsive grid of cards. Highlight 'HipChat AI' as the featured project.",
+    "Display Skills as interactive pill-shaped tags organized by category.",
+    "Include a simple contact form UI in the footer alongside social links.",
+    "Ensure all code is clean, modular, responsive, and directly copy-pasteable."
+  ]
+}
